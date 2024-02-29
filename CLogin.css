@@ -1,0 +1,52 @@
+.general{
+    border-style: groove;
+    text-align: center;
+    border-radius: 10px;
+    background:rgba(255, 255, 255, 0.24);
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+    font-size: large;
+    align-items: center;
+    box-shadow: 25px 25px 10px rgb(43, 42, 42);
+    padding-bottom: 100px;
+}
+.general:hover{
+    
+    border-radius: 10px;
+    box-shadow: none;
+}
+body{
+    background-image: url("images\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pas{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-right: 100px;
+}
+.button{
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+.button:hover{
+    border: none;
+}
+.pas:link{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+a{
+    text-decoration-line: none;
+    color: rgb(34, 34, 34);
+}
