@@ -1,3 +1,9 @@
+body{
+    background-image: url("images\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .general{
     border-style: groove;
     text-align: center;
@@ -16,12 +22,7 @@
     border-radius: 10px;
     box-shadow: none;
 }
-body{
-    background-image: url("images\ \(1\).jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+
 .pas{
     border-top: none;
     border-left: none;
