@@ -18,15 +18,23 @@ body{
     box-shadow: 25px 25px 10px rgb(43, 42, 42);
     padding-bottom: 100px;
 }
+input{
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+label ,p{
+    font-size: 25px;
+}
+h1{
+    color:#FF724C;
+}
 .general:hover{
     
     border-radius: 10px;
     box-shadow: none;
 }
-h1{
-    color:#FF724C;
-}
-.pas{
+.ib{
     border-top: none;
     border-left: none;
     border-right: none;
@@ -45,20 +53,10 @@ h1{
 .button:hover{
     border: none;
 }
-.pas:link{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-}
-input{
-    border-radius: 10px;
-    padding-bottom: 5px;
-}
-a,p{
+a{
     text-decoration-line: none;
     color:#F4F4F8 ;
-    font-size: 25px;
 }
-.al:hover{
+a:hover{
     text-decoration-line: underline;
 }
